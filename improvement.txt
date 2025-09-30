@@ -1,0 +1,42 @@
+1. Functional Enhancements
+a) Employee Features
+View Leave History: Show all past leaves (approved/rejected/pending) with filters (month/year/type).
+Cancel Pending Requests: Employees can cancel requests that are still pending.
+Leave Balance Notifications: Show a warning when leaves are low.
+Profile Section: Add employee info like email, contact, department.
+b) Manager Features
+Add/Edit Employees: Managers can create new employees, edit details, or reset passwords.
+Bulk Approve/Reject: Approve or reject multiple leave requests at once.
+Leave Statistics: Show stats like monthly leave trends, leave types, department-wise leaves.
+Search & Filter Requests: Filter requests by employee, date, or status.
+c) Leave Types & Policies
+Different Leave Types: Casual, Sick, Paid, Unpaid, Maternity/Paternity.
+Leave Quotas per Type: Track how many days are allowed per type.
+Automatic Balance Deduction: Ensure taken leave automatically deducts from the right quota.
+
+
+2. UX / UI Improvements
+Responsive Design: Make it look good on mobile, tablet, and desktop.
+Animations: Smooth transitions for showing/hiding sections, buttons, notifications.
+Interactive Dashboard: Charts for leave statistics using Chart.js (you already started).
+Dark Mode: A toggle between light/dark theme.
+Form Validation: Highlight errors in inputs before submitting.
+Tooltips & Modals: For details, confirmations, or error messages.
+
+
+3. Backend / Data Improvements
+Use Hashed Passwords: Store passwords securely (bcrypt).
+JWT Authentication: Replace plain login with tokens for security.
+Role-Based Access: Only allow managers certain API actions.
+Database Optimization:
+Add indexes on employee id and leave dates.
+Track audit logs (who approved what).
+Notifications: Email or in-app notifications when leave is approved/rejected.
+
+
+4. Advanced Features (Optional)
+Calendar View: Show approved leaves in a monthly calendar.
+Conflict Warnings: Warn if multiple employees are off on the same day in a critical department.
+Multi-Company Support: Allow multiple departments or branches.
+Export Data: Download employee leave data as CSV/PDF.
+Machine Learning Insights: Predict leave trends or absenteeism patterns.
